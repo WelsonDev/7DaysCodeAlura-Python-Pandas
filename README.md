@@ -43,3 +43,51 @@ Já a coluna da matricula (“matricula_ou_siape”) não está com um formato m
 
 
 https://www.alura.com.br/artigos/adicionando-elementos-na-lista-do-python-append-ou-extend
+
+
+
+#Desafio dia 3
+A diretoria da biblioteca gostaria de entender se a quantidade de empréstimos está diminuindo, aumentando ou permanecendo igual ao decorrer dos últimos anos.
+
+Para isso, verifique qual é a quantidade total de exemplares emprestados por cada ano e plote um gráfico de linhas.
+
+Depois, faça uma análise em relação à visualização gerada.
+
+Atente-se para a quantidade de exemplares emprestados, e não de empréstimos realizados.
+
+A diretoria também gostaria de gerenciar melhor os recursos humanos da biblioteca de acordo com a demanda de trabalho existente. Por exemplo:
+
+    gerenciar a programação de férias dos colaboradores de acordo com os meses de menor demanda;
+    programar atividades que não sejam de atendimento ao usuário para períodos específicos de menor demanda.
+
+
+Há uma suspeita interna de que os meses com maior número de exemplares emprestados sejam março e setembro, mas não foi realizada uma análise real sobre isso.
+
+Portanto, gere uma tabela com a quantidade total de exemplares emprestados por mês e descubra quais meses são os que possuem a maior quantidade de empréstimos realizados. Plote um gráfico de linhas.
+
+Traga suas análises em relação a quais meses poderiam ser as melhores opções.
+
+Além do gerenciamento anual das atividades, a diretoria também necessita que seja planejada uma programação diária das atividades. Por este motivo, verifique quais foram os horários com maior quantidade de empréstimos ao longo de um dia inteiro.
+
+Plote um gráfico de barras e analise quais seriam os melhores horários para alocar as demais atividades que não sejam de atendimento ao usuário. 
+
+
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.dt.date.html
+https://www.alura.com.br/artigos/lidando-com-datas-e-horarios-no-python
+https://www.alura.com.br/artigos/visualizando-informacoes-com-um-grafico
+https://www.alura.com.br/artigos/analise-de-dados-analisando-minha-distribuicao-com-tres-alternativas-de-visualizacao
+
+
+dica
+
+ Verifique a quantidade de empréstimos pelos números de ID. Investigue pela relação deles com o ID dos exemplares.
+
+O groupby poderá te ajudar nesse desafio.
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html
+Transforme as datas em tipo Datetime.
+
+Não deixe de caprichar nos gráficos:
+
+    coloque um título adequado e objetivo;
+    escolha cores adequadas e acessíveis para todas as pessoas;
+    deixe apenas as informações relevantes, o excesso prejudica a visualização.
