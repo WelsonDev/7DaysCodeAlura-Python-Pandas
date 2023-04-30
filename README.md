@@ -76,6 +76,8 @@ https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.dt.date
 https://www.alura.com.br/artigos/lidando-com-datas-e-horarios-no-python
 https://www.alura.com.br/artigos/visualizando-informacoes-com-um-grafico
 https://www.alura.com.br/artigos/analise-de-dados-analisando-minha-distribuicao-com-tres-alternativas-de-visualizacao
+https://www.alura.com.br/artigos/adicionando-elementos-na-lista-do-python-append-ou-extend
+
 
 
 dica
