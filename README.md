@@ -185,3 +185,69 @@ Plote um gráfico para cada tipo de usuário.
 Tenha um boxplots para cada ano e analise o que ocorreu.
 
 O que está ocorrendo ao decorrer do tempo? Houve algum ano ou anos em específico que te chamaram atenção para alguma diferença? Quais as maiores diferenças entre os empréstimos para os alunos de graduação e pós graduação?
+
+ Dica:
+ Desenvolva a tarefa uma etapa por vez:
+
+    Verifique qual é a coleção com maior frequência para cada tipo de usuário.
+    Filtre os dados com condições solicitadas
+    Selecione apenas os empréstimos
+    Faça a contagem de empréstimos mensais por cada ano
+    Crie uma função para gerar a visualização do gráfico de box plot por cada ano.
+    Crie o gráfico de boxplot
+	
+	
+	
+	Fique livre para escolher a biblioteca que desejar para plotar o gráfico, mas não deixe de conferir a documentação:
+
+    Matplotlib
+    Pandas
+    Seaborn
+    Plotly
+	
+	https://seaborn.pydata.org/tutorial/color_palettes.html
+	http://seaborn.pydata.org/tutorial/aesthetics.html
+	
+	https://franciscofoz.medium.com/como-criar-um-boxplot-com-python-no-plotly-252a77fdecf4
+	
+	#Desafio 6
+	
+	As instituições de ensino superior (IES) têm a necessidade de passar por avaliações do Ministério da Educação (MEC) para que possam ofertar e continuar ofertando cursos de graduação e pós-graduação.
+
+A biblioteca universitária faz parte de um dos indicadores da avaliação dos cursos, em principalmente três aspectos: acervo, infraestrutura e serviços.
+
+Dentre os serviços, são avaliados se existem recursos de bases referenciais para pesquisa, se há treinamentos para os usuários utilizarem os materiais, e a presença de indicadores sobre o uso dos materiais do acervo (empréstimos, consultas) dentre outros tópicos.
+
+Durante meu trabalho como bibliotecário universitário, eu já passei por esta experiência, e um dos indicadores enviados foi a quantidade de empréstimos realizados nos últimos anos pelos cursos que seriam avaliados.
+
+Por este motivo, no desafio de hoje, você precisará de novas métricas em relação aos empréstimos, de acordo com os cursos.
+
+Você precisará calcular a quantidade de empréstimos realizados entre 2015 e 2020 por cada curso de graduação que passará pela avaliação.
+
+Os cursos serão:
+
+    Biblioteconomia
+    Ciências sociais
+    Comunicação social
+    Direito
+    Filosofia
+    Pedagogia
+
+
+A universidade forneceu os dados dos usuários, mas uma parte deles está em planilhas de Excel, a outra parte veio através de uma API do sistema em formato JSON.
+
+Extraia os dados destes arquivos, agrupe-os em apenas um só, e verifique depois a quantidade de empréstimos.
+
+Gere uma tabela com as seguintes características:
+
+    Índice: Cursos
+    Colunas: Ano
+    Valores: Quantidade de empréstimos
+    Total: Acrescente uma linha e uma coluna de total a tabela
+	
+	Dica
+	 Garanta que a coluna de matrícula dos alunos estejam no mesmo formato de dados e não tenha nenhum dado nulo.
+	 
+	 https://franciscofoz.medium.com/como-extrair-e-transformar-dados-json-com-pandas-34f6199393c1
+	 https://medium.com/@vanleiko/pivot-e-pivot-table-qual-a-diferen%C3%A7a-entre-esses-dois-m%C3%A9todos-do-pandas-15244325b493
+	
