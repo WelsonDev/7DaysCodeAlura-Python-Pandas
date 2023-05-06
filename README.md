@@ -250,4 +250,62 @@ Gere uma tabela com as seguintes características:
 	 
 	 https://franciscofoz.medium.com/como-extrair-e-transformar-dados-json-com-pandas-34f6199393c1
 	 https://medium.com/@vanleiko/pivot-e-pivot-table-qual-a-diferen%C3%A7a-entre-esses-dois-m%C3%A9todos-do-pandas-15244325b493
+	 
+	 
+	 #Desafio 7
+	 A diretoria da biblioteca está montando um plano de ação de marketing focado nos alunos da pós-graduação. Para isso, precisará analisar a diferença percentual de empréstimos realizados nos últimos anos (2017, 2018, 2019) para cada curso.
+
+Devido à pandemia do COVID-19, ela não poderá utilizar os dados de 2020 e 2021. Entretanto, seu colega de equipe já realizou uma análise de previsão de empréstimos de 2022 e a disponibilizou para que você também possa realizar o comparativo entre 2019-2022.
+
+Você precisará criar uma tabela com as diferenças percentuais de empréstimos entre 2017-2018, 2018-2019, 2019-2022.
+
+Porém, essa análise será disponibilizada em conjunto com outros dados, através de uma página da web, e a equipe de Front-end te solicitou que enviassem para eles o HTML da tabela.
+
+Eles precisam que ela tenha as seguintes características:
+
+    Não contenha numeração de índice;
+    Os nomes dos cursos tenham apenas a primeira letra maiúscula;
+    Os números percentuais estejam indicados pelo símbolo “%”;
+    Cor dos números: Positivos = Verde; Negativos = Vermelho
 	
+	
+	
+	
+EXERCÍCIO OPCIONAL
+
+Você sabe que a equipe de Front-end está com muito trabalho e talvez poderia auxiliá-los um pouco mais. Caso tenha tempo, envie para eles a tabela já com algumas estilizações do CSS prontas para adiantar o trabalho.
+
+O padrão inicial para as tabelas deste projeto será:
+
+    Cabeçalho:
+        font-size = 1.4rem
+        text-align = center
+        font-weight = bold
+        color = whitesmoke
+        background-color = #001692
+        border-radius = 0.25rem
+        box-shadow = 0 0 1rem gray
+
+
+    Corpo:
+        font-size = 1rem
+        padding = 0.5rem
+        text-align = left
+        font-weight = bold
+        border-bottom = 0.1rem solid lightgray
+		
+		
+		
+		 Não deixe de conferir a documentação do Pandas:
+
+    Leitura de arquivos gerais.
+    Todas as estilizações de tabelas que ele oferece. Principalmente o exclusivo para HTML.
+	https://pandas.pydata.org/docs/reference/api/pandas.read_table.html
+	https://pandas.pydata.org/pandas-docs/version/1.3/reference/api/pandas.io.formats.style.Styler.html
+	https://pandas.pydata.org/pandas-docs/version/1.3/reference/api/pandas.io.formats.style.Styler.to_html.html
+	
+	
+	Extra
+	 Deixo aqui também esse meu texto de “Como customizar tabelas no Pandas” e esse vídeo da Kizzy Terra do Programação Dinâmica para você se inspirar.
+	 
+	https://franciscofoz.medium.com/como-customizar-tabelas-no-pandas-9e6c4593b8d2
