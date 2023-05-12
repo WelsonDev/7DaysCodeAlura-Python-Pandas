@@ -1,6 +1,7 @@
 # 7DaysCodeAlura-Python-Pandas
 Desafio Alura - 7 Days of code
 
+#Desafio 1
 
 https://github.com/FranciscoFoz/7_Days_of_Code_Alura-Python-Pandas/tree/main/Dia_1-Importando_dados/Datasets
 
@@ -9,9 +10,12 @@ https://pandas.pydata.org/docs/user_guide/io.html
 https://www.alura.com.br/artigos/arquivos-parquet
 https://franciscofoz.medium.com/como-jogar-dados-fora-com-pandas-23a5be871aac
 
-Dados baixados? Ok, mas são diversas tabelas diferentes e isso dificulta o trabalho. Portanto, o seu primeiro passo é unificar em um único Dataframe todos os dados pertinentes para a análise.
+Dados baixados? Ok, mas são diversas tabelas diferentes e isso dificulta o trabalho. 
+Portanto, o seu primeiro passo é unificar em um único Dataframe todos os dados pertinentes para a análise.
 
-Comece pelos empréstimos e você terá os dados das transações. Depois, mescle com os dados do acervo, para que você possa entender, por exemplo, de qual biblioteca era o material emprestado ou a qual tema ele se referia. Elas se relacionam pela coluna de código de barras de cada material.
+Comece pelos empréstimos e você terá os dados das transações. Depois, mescle com os dados do acervo, 
+para que você possa entender, por exemplo, de qual biblioteca era o material emprestado ou a qual tema ele
+se referia. Elas se relacionam pela coluna de código de barras de cada material.
 
 Lembre-se que é muito comum receber dados nulos ou duplicados, por isso não deixe de fazer a limpeza.
 
