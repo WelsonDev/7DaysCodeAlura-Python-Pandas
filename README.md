@@ -164,6 +164,7 @@ Como é um trabalho repetitivo, crie uma função que gere a tabela com os valor
 Após geradas as tabelas, traga algumas das suas percepções para as análises com o que você poderá contribuir para a diretoria da biblioteca.
 
 links:
+
 https://docs.python.org/pt-br/3/library/functions.html?#round
 https://www.alura.com.br/apostila-python-orientacao-a-objetos/funcoes
 
@@ -202,7 +203,7 @@ O que está ocorrendo ao decorrer do tempo? Houve algum ano ou anos em específi
 	
 	
 	
-	Fique livre para escolher a biblioteca que desejar para plotar o gráfico, mas não deixe de conferir a documentação:
+Fique livre para escolher a biblioteca que desejar para plotar o gráfico, mas não deixe de conferir a documentação:
 
     Matplotlib
     Pandas
@@ -271,8 +272,7 @@ Eles precisam que ela tenha as seguintes características:
     Os nomes dos cursos tenham apenas a primeira letra maiúscula;
     Os números percentuais estejam indicados pelo símbolo “%”;
     Cor dos números: Positivos = Verde; Negativos = Vermelho
-	
-	
+		
 	
 	
 EXERCÍCIO OPCIONAL
