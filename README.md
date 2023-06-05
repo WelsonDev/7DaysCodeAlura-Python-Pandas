@@ -10,14 +10,18 @@ https://pandas.pydata.org/docs/user_guide/io.html
 https://www.alura.com.br/artigos/arquivos-parquet
 https://franciscofoz.medium.com/como-jogar-dados-fora-com-pandas-23a5be871aac
 
-Dados baixados? Ok, mas são diversas tabelas diferentes e isso dificulta o trabalho. 
+Apos os dados baixados, podemos ver que temos diversas tabelas diferentes e isso dificulta o trabalho. 
 Portanto, o seu primeiro passo é unificar em um único Dataframe todos os dados pertinentes para a análise.
 
 Comece pelos empréstimos e você terá os dados das transações. Depois, mescle com os dados do acervo, 
 para que você possa entender, por exemplo, de qual biblioteca era o material emprestado ou a qual tema ele
-se referia. Elas se relacionam pela coluna de código de barras de cada material.
+se referia. 
+Elas se relacionam pela coluna de código de barras de cada material.
 
 Lembre-se que é muito comum receber dados nulos ou duplicados, por isso não deixe de fazer a limpeza.
+
+
+#Desafio 2
 
 Você deve ter visto que tem uma coluna identificada como “localização” e diversos números nela, mas você sabe o que significam estes números?
 
